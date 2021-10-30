@@ -7,13 +7,11 @@ We can make our system say out the meaning of the word given as input. which spe
 3. speech_recognition 
 
 # For Male voice :
-  USE : 0
- engine = pyttsx3.init()
-voices = engine.getProperty('voices')
+  >USE : 0
+  >Example:-
 engine.setProperty('voice', voices[0].id)
 
 # For Female voice :
-  USE : 1
- engine = pyttsx3.init()
-voices = engine.getProperty('voices')
+ >USE : 1
+ >Example:-
 engine.setProperty('voice', voices[1].id)
